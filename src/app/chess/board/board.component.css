@@ -7,14 +7,9 @@
 .light{
   background-color: sandybrown;
 }
-td{
-  width: 12.5%;
-  height: 100%;
-  content: '';
-  margin-top: 100%;
-}
+
 .blank{
-  padding: 70px;
+  padding: 6%;
 }
 .occupied{
   padding: 2%;
