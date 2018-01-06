@@ -1,0 +1,8 @@
+<table class="table table-bordered table-responsive col-lg-6">
+  <tr *ngFor="let rank of ranks">
+    <td *ngFor="let file of files" class="box"
+        [ngClass]="onNgClass(rank,file)">
+      <app-square [rank]="rank" [file]="file" [isBlank]="isBlank(rank,file)" ></app-square>
+    </td>
+  </tr>
+</table>

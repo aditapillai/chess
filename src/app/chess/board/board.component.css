@@ -1,0 +1,21 @@
+.box {
+  border: 1px solid saddlebrown;
+}
+.dark{
+  background-color: saddlebrown;
+}
+.light{
+  background-color: sandybrown;
+}
+td{
+  width: 12.5%;
+  height: 100%;
+  content: '';
+  margin-top: 100%;
+}
+.blank{
+  padding: 70px;
+}
+.occupied{
+  padding: 2%;
+}
